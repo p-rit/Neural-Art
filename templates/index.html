@@ -1,0 +1,112 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Style transfer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+
+
+<div class="jumbotron" >
+  <div class="container text-center">
+    <h2>Style transfer using pytorch</h2>      
+   
+  </div>
+</div>
+  
+<div class="container-fluid bg-3 text-center">    
+<form action="/success" method="post" enctype="multipart/form-data" >
+
+  <h3>Choose style image</h3><br>
+  <div class="row">
+    
+       <div class="col-sm-1"> 
+      
+      </div>
+    <div class="col-sm-2">
+      <p> 
+        <label class="radio-inline"><input type="radio" name="style" value="1" required>Option 1</label>
+</p>
+      <img src="../static/image/s1.jpg" class="img-circle" width="200" height="150" alt="Image">
+      </div>
+    <div class="col-sm-2"> 
+      <p>
+        <label class="radio-inline"><input type="radio" name="style" value="2" required>Option 2</label>
+      </p>
+      
+      <img src="../static/image/s2.jpg" class="img-circle" width="200" height="150" alt="Image">
+    </div>
+    
+    
+     <div class="col-sm-2">
+      <p>
+        <label class="radio-inline"><input type="radio" name="style"  value="3" required>Option 3</label>
+
+      </p>
+      <img src="../static/image/s3.jpg" class="img-circle" width="200" height="150" alt="Image">
+    </div>
+    <div class="col-sm-2"> 
+      <p>
+        <label class="radio-inline"><input type="radio" name="style" value="4" required>Option 4</label>
+
+      </p>
+      <img src="../static/image/s4.jpg" class="img-circle" width="200" height="150"  alt="Image">
+    </div>
+    <div class="col-sm-2">
+      <p>
+        <label class="radio-inline"><input type="radio" name="style" value="5" required>Option 5</label>
+
+      </p>
+      <img src="../static/image/s5.jpg" class="img-circle" width="200" height="150" alt="Image">
+     </div>
+      <div class="col-sm-1">
+       </div>
+      
+    </div>
+  </div>
+<br/>
+<br/><br/>
+
+<div class="row">
+  <div class="col-sm-4">
+  </div>
+  <div class="col-sm-8">
+    
+     
+      <span class="btn btn-default btn-file">
+        <input type="file" name="file" required>
+      </span>
+
+    <input type="submit" value="Upload your image" class="btn btn-primary" required>
+  </form>
+  </div>
+  
+</div>
+</div><br>
+
+</div><br>
+
+</body>
+<!-- Footer -->
+
+
+</html>
