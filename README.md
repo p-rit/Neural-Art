@@ -33,7 +33,7 @@ Select the Style image and then upload the content image (the image on which you
 
 ## Results
 
-![image]()
+![image](https://github.com/p-rit/Neural-Art/blob/master/static/success.png)
 
 ## Authors
 
