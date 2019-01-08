@@ -37,7 +37,7 @@ Select the Style image and then upload the content image (the image on which you
 
 ## future work
 
-* Reduce processing to few seconds or a minute.
+* Reduce processing time to few seconds or a minute.
 
 ## Authors
 
