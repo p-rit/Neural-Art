@@ -1,7 +1,7 @@
 from flask import Flask , render_template ,request
 import os
 import matplotlib.pyplot as plt
-#import style_transfer
+import style_transfer
 
 
 app = Flask(__name__)
