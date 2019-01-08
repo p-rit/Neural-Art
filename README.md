@@ -2,7 +2,7 @@
 
 Flask app for style transfer using neural network
 
-![image]()
+![image](https://github.com/p-rit/Neural-Art/blob/master/static/index.png)
 
 ### Prerequisites
 
