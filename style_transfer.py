@@ -25,7 +25,6 @@ def model():
 # freeze all VGG parameters since we're only optimizing the target image
   for param in vgg.parameters():
       param.requires_grad_(False)
- # move the model to GPU, if available
  
   return vgg
 
@@ -169,7 +168,7 @@ def stylize(content,style,model):
             style_loss += layer_style_loss / (d * h * w)
 
 
-        ## TODO:  calculate the *total* loss
+        ## calculate the *total* loss
         total_loss = content_weight * content_loss + style_weight * style_loss
 
 
