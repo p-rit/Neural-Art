@@ -35,6 +35,10 @@ Select the Style image and then upload the content image (the image on which you
 
 ![image](https://github.com/p-rit/Neural-Art/blob/master/static/success.png)
 
+## future work
+
+* Reduce processing to few seconds or a minute.
+
 ## Authors
 
 * **Ritul Patidar** - *Initial work* - [here](https://github.com/p-rit)
