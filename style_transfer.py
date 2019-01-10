@@ -143,7 +143,7 @@ def stylize(content,style,model):
 
     for ii in range(1, steps+1):
 
-        ## TODO: get the features from your target image    
+        ## get the features from your target image    
         ## Then calculate the content loss
         target_features = get_features(target, vgg)
 
