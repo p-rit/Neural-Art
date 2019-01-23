@@ -6,7 +6,7 @@ Flask app for style transfer using neural network
 
 ### Prerequisites
 
-* Pytorch
+* PyTorch
 * Matplotlib
 * Pandas
 * Numpy
@@ -28,7 +28,7 @@ Select the Style image and then upload the content image (the image on which you
 
 ## Built With
 
-* [Pytorch](https://pytorch.org/) -  Machine learning library
+* [PyTorch](https://pytorch.org/) -  Machine learning library
 * [Flask](http://flask.pocoo.org/) - web framework
 
 ## Results
